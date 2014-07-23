@@ -1,7 +1,7 @@
 @import url('reset.css');
 
 h1 {
-	font: 34px sans-serif;
+	font: 45px sans-serif;
 	font-style: italic;
 	color: #fff;
 	padding-top: 57px;
@@ -154,8 +154,8 @@ header {
 
 		.header-wrapper p {
 			position: relative;
-			top: 74px;
-			left: 15px;
+			top: 80px;
+			left: 23px;
 		}
 
 /* .content-wrapper {
