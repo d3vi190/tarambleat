@@ -1,0 +1,255 @@
+@import url('reset.css');
+
+h1 {
+	font: 34px sans-serif;
+	font-style: italic;
+	color: #fff;
+	padding-top: 57px;
+	float: left;
+}
+
+h2 {
+	font: 13px Georgia;
+	color: #EDEDED;
+}
+
+.content {
+	width: 960px;
+	margin: 0 auto;
+	z-index: 1;
+	height: 100%;
+}
+
+.meta {
+	color: #696969;
+	font-style: italic;
+	text-shadow: 1px 1px 2px black;
+	font-size: 11px;
+}
+
+header {
+	height: 245px;
+}
+	.header-top-menu {
+		width: 100%;
+		height: 35px;
+		border-bottom: 1px solid #3D3D3D;
+		background:url('../img/top-bg.png');
+	}	
+
+		.header-top-menu p {
+			float: right;
+			margin-top: 11px;
+		}
+
+			.header-top-menu span {
+				color: #bbb;
+			}
+
+			.header-top-menu p a {
+				text-decoration: none;
+				color: #696969;
+			}
+
+				.header-top-menu p a:hover {
+					color: #ddd;
+				}
+		
+		.header-nav {
+			position: relative;
+			top: 7px;
+		}
+
+			#date {
+				color: #696969;
+				font-style: italic;
+				text-shadow: 1px 1px 2px black;
+				font-size: 11px;
+				padding-right: 8px;
+				position: relative;
+				top: 4px;
+			}
+		
+			.header-nav-li {
+				float: left;
+				margin-right: 4px;
+				padding-bottom: 15px;
+			}
+
+					.header-column1:hover .chapter1{
+						display: block;
+					}
+
+					.header-column3:hover .chapter3{
+						display: block;
+					}
+
+				.header-nav-li img {
+					border-right: 1px solid #696969;
+					padding: 3px 7px 1px 3px;
+				}
+
+				.header-nav-li a {
+					text-decoration: none;
+					color: #696969;
+					font-style: italic;
+					text-shadow: 1px 1px 2px black;
+					font-size: 11px;
+					padding-bottom: 12px;
+				}
+
+					.header-nav-li a:hover {
+						color: #ddd;
+					}
+
+				.header-child-nav {
+					display: none;
+					width: 142px;
+					border-radius: 5px;
+					z-index: 2;
+					background: url('../img/top-bg.png');
+					box-shadow: 1px 1px 2px black;
+				}
+					
+						.chapter1 {
+							position: absolute;
+							top: 30px;
+							left: 70px;
+						}
+
+						.chapter3 {
+							position: absolute;
+							top: 30px;
+							left: 245px;
+						}
+
+					.header-child-nav .top {
+						border: none;
+					}
+					
+					.header-child-nav li{
+						width: 110px;
+						height: 30px;
+						border-top: 1px solid #2E2E2E;
+						margin-left: 15px;
+					}
+
+						.header-child-nav li a {
+							line-height: 30px;
+						}
+						
+
+	.header-wrapper {
+		width: 100%;
+		background: url('../img/header-bg.png');
+		height: 100%;
+	}
+		
+		.header-wrapper img {
+			float: right;
+			margin-top: 35px;
+			border: 5px solid #222222;
+
+		}
+
+		.header-wrapper p {
+			position: relative;
+			top: 74px;
+			left: 15px;
+		}
+
+/* .content-wrapper {
+	position: relative;
+	height: 2035px;
+	width: 100%;
+	z-index: 1;
+}
+
+	.top-wrap {
+		height: 380px;
+		width: 100%;
+		background: url('../img/wrap-top-bg.png') repeat-x;
+	} */
+
+/*CONTENT AREA*/
+.content-section {
+	background-color: #858585;
+}
+
+	.content-head {
+		height: 65px;
+		background: url('../img/cont-head-bg.png') repeat-x;
+		position: relative;
+		bottom: 45px;
+	}
+
+	.content-head-nav {
+		float: left;
+		width: 154px;
+		height: 56px;
+		margin: 0 2px;
+	}
+
+		.content-head-nav img{
+			position: relative;
+			left: 156px;
+			bottom: 32px;
+		}
+
+		.content-head-nav a{
+			text-decoration: none;
+			text-indent: 10px;
+		}
+
+			.content-head-nav a h2{
+				padding-top: 10px;
+			}
+
+			.content-head-nav a p{
+				padding-top: 7px;
+			}
+
+				.content-column5:hover .content-chapter5 {
+					display: block;
+				}
+
+		.content-head-child-menu {
+			display: none;
+			border-radius: 5px;
+			position: relative;
+			width: 165px;
+			background-color: rgba(20,20,20,.6);
+			z-index: 2;
+		}
+			
+			.empty {
+				height: 60px;
+			}
+
+			.content-head-child-nav {
+				height: 30px;
+			}
+
+				.content-head-child-nav a{
+					color: #696969;
+					font-style: italic;
+					text-shadow: 1px 1px 2px black;
+					font-size: 11px;
+					padding-left: 16px;
+				}
+
+					.content-head-child-nav a:hover {
+						color: #ddd;
+					}
+
+			.content-chapter5 {
+				bottom: 83px;
+				right: 5px;
+			}
+
+	.slider {
+		height: 337px;
+		width: 900px;
+		border: 1px solid #ccc;
+		margin: 0 auto;
+	}
