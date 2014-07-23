@@ -24,7 +24,7 @@ h2 {
 	color: #696969;
 	font-style: italic;
 	text-shadow: 1px 1px 2px black;
-	font-size: 11px;
+	font-size: 13px;
 }
 
 header {
@@ -64,7 +64,7 @@ header {
 				color: #696969;
 				font-style: italic;
 				text-shadow: 1px 1px 2px black;
-				font-size: 11px;
+				font-size: 13px;
 				padding-right: 8px;
 				position: relative;
 				top: 4px;
@@ -91,15 +91,15 @@ header {
 
 				.header-nav-li a {
 					text-decoration: none;
-					color: #696969;
+					color: #ccc;
 					font-style: italic;
 					text-shadow: 1px 1px 2px black;
-					font-size: 11px;
+					font-size: 13px;
 					padding-bottom: 12px;
 				}
 
 					.header-nav-li a:hover {
-						color: #ddd;
+						color: #fff;
 					}
 
 				.header-child-nav {
@@ -184,10 +184,11 @@ header {
 	}
 
 	.content-head-nav {
-		float: left;
-		width: 154px;
+		width: 152px;
 		height: 56px;
 		margin: 0 2px;
+		display: inline-block;
+		vertical-align: middle;
 	}
 
 		.content-head-nav img{
@@ -234,7 +235,7 @@ header {
 					color: #696969;
 					font-style: italic;
 					text-shadow: 1px 1px 2px black;
-					font-size: 11px;
+					font-size: 13px;
 					padding-left: 16px;
 				}
 
